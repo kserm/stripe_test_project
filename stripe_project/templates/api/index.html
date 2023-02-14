@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Buy items</title>
+  </head>
+  <body>
+        <h1>
+            Buy items:
+        </h1>
+    <br>
+    <ul>
+        {% for item in items%}
+            <li>
+                <a href='item/{{item.id}}'>{{item.name}}</a>
+                - {{item.get_price_in_dollars}} $
+            </li>
+        {% endfor %}
+    </ul>
+
+  </body>
+</html>
