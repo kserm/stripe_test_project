@@ -35,7 +35,6 @@ ____________________________________________
 - Django 4.1
 - SQLite
 - DRF
-- Gunicorn
 - Docker
 
 ## **Шаблон наполнения env-файла.**
@@ -52,7 +51,7 @@ git clone git@github.com:kserm/stripe_test_project.git
 ```
 
 ```
-cd stripe-project
+cd stripe_test_project/stripe_project
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -75,6 +74,14 @@ pip install -r requirements.txt
 
 ```
 python3 manage.py migrate
+```
+
+Создайте в рабочей директории файл с переменными окружения `.env`.
+(Содержимое файла см. в разделе "Шаблон наполнения env-файла")
+
+*(Опционально) выполните загрузку тестовых данных:*
+```
+python3 manage.py loaddata fixtures.json
 ```
 
 Запустить проект:
