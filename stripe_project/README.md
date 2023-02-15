@@ -1,8 +1,8 @@
-# Тестовое задание Stripe API * Django.
+# Тестовое задание Stripe API + Django.
 ##### автор: Ермачков Константин
 ____________________________________________
 ## **Адрес проекта.**
-### [stripe-test-project](http://localhost/)
+### [kserm.pythonanywhere.com](http://kserm.pythonanywhere.com/)
 
 ### Учетная запись администратора:
 - username: admin_user1
